@@ -1,0 +1,125 @@
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+body {
+/*	background-color: red;*/
+font-family: 'Montserrat', sans-serif;
+text-align: center;
+}
+
+#logo, #topBanner > div, h1, #topBanner > h2 {
+	position: absolute;
+}
+
+h1 {
+
+	transform: translate(10%, 150%);
+	font-size: 260%;
+	color: rgb(255, 0, 0);
+}
+
+h2{
+	padding: 20px;
+}
+
+#topBanner > h2 {
+	transform: translate(35%, 800%);
+	background-color: white;
+	border-radius:  15px;
+	padding: 10px;
+}
+
+a{
+	text-decoration: none;
+}
+
+li{
+	list-style-type: none;
+	padding: 10px;
+}
+
+#cards{
+	display: flex;
+	justify-content: space-evenly;
+	padding: 20px;
+}
+
+
+.places{
+	width: 300px;
+	height: 300px;
+	object-fit: cover;
+	border-radius: 20px;
+}
+
+/*#cards{
+	display: flex;
+	justify-content: space-evenly;
+	padding: 20px;
+}*/
+
+#expCards{
+	display: flex;
+	justify-content: space-evenly;
+	padding: 20px;
+}
+
+#banner {
+	width: 100%;
+	position: relative;
+}
+
+#topBanner{
+	display: flex;
+
+}
+
+#middleBanner{
+	display: flex;
+	justify-content: center;
+	padding-top: 50px;
+}
+
+#middleBanner > img{
+	position: relative;
+}
+
+#middleBanner > div {
+	position: absolute;
+	transform: translate(120%, 0);
+}
+
+
+#logo {
+	transform: translate(5%, 10%);
+	width: 30%;
+}
+
+#iconBox{
+	right: 2%;
+	top: 2%;
+}
+
+#iconbox{
+/*	border: 1px solid;*/
+/*	right: 2%;
+	top: 2%;*/
+
+}
+
+#menuIcon {
+	width: 30px;
+/*	transform: translate(0%, 20%);*/
+}
+
+#signInIcon {
+	width: 30px;
+
+}
+
+/*#navMenu{
+	display: flex;
+	justify-content: space-evenly;
+}*/
